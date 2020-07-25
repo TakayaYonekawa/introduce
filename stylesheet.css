@@ -75,6 +75,10 @@ video{
   display: block;
   z-index: 0;
   opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+
 }
 
 .video-wrap h1{
@@ -158,6 +162,18 @@ video{
   margin-top: 40px;
 }
 
+@media screen and (max-width:640px){
+  .video-wrap h1{
+    font-size: 60px;
+
+  }
+  .video-wrap p{
+
+    font-size: 30px;
+
+  }
+
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
