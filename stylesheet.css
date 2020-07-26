@@ -162,7 +162,27 @@ video{
   margin-top: 40px;
 }
 
+@media screen and (min-width: 641px) {
+  .video2 {
+    display: none;
+  }
+}
+
 @media screen and (max-width:640px){
+  .video-wrap{
+
+  }
+  video{
+    height: 100%;
+    width: 100%;
+  }
+  .video1{
+    display: none;
+  }
+  .video2{
+    display: block;
+  }
+
   .video-wrap h1{
     font-size: 60px;
 
@@ -174,6 +194,7 @@ video{
   }
 
 }
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
