@@ -43,6 +43,7 @@
 .navbar-collapse{
   margin-top: 10px;
   max-width: 100%;
+  opacity: 0.8;
 
 }
 .nav-item a{
