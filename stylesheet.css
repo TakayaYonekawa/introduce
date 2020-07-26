@@ -179,9 +179,7 @@ video{
   .video1{
     display: none;
   }
-  .video2{
-    display: block;
-  }
+
 
   .video-wrap h1{
     font-size: 60px;
