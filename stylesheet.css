@@ -95,6 +95,7 @@ video{
   width: 100%;
   top: 40%;
   z-index:1;
+  animation: moveBanner 4s .5s forwards;
 }
 .video-wrap p{
   font-family: serif;
@@ -106,8 +107,20 @@ video{
   top: 60%;
   margin-top: 10%;
   z-index:1;
+  animation: moveBanner 4s .7s forwards;
+
 }
 
+@keyframes moveBanner{
+  0%{
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 /*============= about =============*/
 .card img{
@@ -115,6 +128,21 @@ video{
   width: 100%;
   height: 100%;
 }
+.card{
+  transform: translateY(-50px);
+  opacity: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+.card.show {
+  transform: translateY(0) !important;
+  opacity: 1;
+}
+
+
+
+
 /*============= language =============*/
 #language{
   background-image: url(img/language.jpg);
@@ -124,6 +152,11 @@ video{
 }
 #language h1,#language h3,#language p{
   color: white;
+}
+.language-box:hover{
+  background-color: black;
+  opacity: .7;
+  border-radius: 5px;
 }
 
 .fa-code{
@@ -191,7 +224,6 @@ video{
   transition: .3s;
   box-shadow: 0 5px 20px #ccc;
 }
-
 
 
 
