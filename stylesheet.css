@@ -177,7 +177,13 @@ video{
 .fa-play,.fa-file-word,.fa-search-dollar{
   color: #2163af;
 }
-.fa-code,.fa-bold,.fa-css3,.fa-play,.fa-file-word,.fa-search-dollar,.fa-github,.fa-html5{
+.fa-wordpress{
+  color: skyblue;
+}
+.fa-php{
+  color: white;
+}
+.fa-code,.fa-bold,.fa-css3,.fa-play,.fa-file-word,.fa-search-dollar,.fa-github,.fa-html5,.fa-wordpress,.fa-php{
   font-size: 4em;
   margin: 1rem;
 }
